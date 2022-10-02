@@ -1,0 +1,150 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: #a8e464 url('../images/background.png') repeat-x;
+    width: 100%;
+}
+@media only screen and (max-width: 720px) {
+    /* For mobile phones: */
+    #Cuerpo {
+        max-width: 100%;
+    }
+}
+#Cuerpo{
+   background-color: white; 
+   width: 900px;
+   overflow: overlay;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   padding: 10px;
+   max-width: 100%;
+   margin: 0 auto;
+   margin-top: 10px;
+   margin-bottom: 10px;
+
+}
+
+#header{
+   max-width: 100%;
+
+}
+
+#header h1{
+    position: absolute;
+    font-size: 35pt;
+    padding: 20px;
+    color: darkgreen;
+    
+}
+
+#nav{
+    width: 880px;
+    max-width: 100%;
+    height: 35px;
+    background-color: #488000;
+}
+
+.opcion{
+    max-width: 100%;
+    color: white;
+    padding: 8px 20px 10px 20px; /*izquierda, arriba, derecha, abajo*/
+    text-decoration: none;
+    float: left;
+    border: 1px solid white;
+    border-top: none;
+    border-bottom: none;
+
+}
+
+#nav a.ultimo{
+    border-right: 0px;
+
+}
+
+#contenido{
+    width: 880px;
+    max-width: 100%;
+    line-height: 23px;
+    overflow: overlay; /*abarca todo el contenido de la caja*/
+    padding-top: 10px;
+    color: rgb(85, 85, 85);
+
+
+
+}
+h2{
+    color: #488000;
+    margin-bottom: 10px;
+}
+
+#Anuncios{
+    width: 250px;
+    text-align: justify;
+    padding-left: 12px;
+    margin-top: 10px;
+    float: left;
+}
+
+
+
+#current_date{
+    color: #488000;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+
+#Principal{
+    margin-top: 10px;
+    text-align: justify;
+    width: 600px;
+    float: right;
+    max-width: 100%;
+
+
+
+}
+
+#Secundario{
+    margin-top: 30px;
+    max-width: 100%;
+
+ 
+}
+
+#Secundario p{
+    width: 380px;
+    float: right;
+    
+}
+
+footer{
+    background-color: #488000;
+    margin-top: 20px;
+    padding: 10px;
+    width: 880px;
+    height: 40px;
+    text-align: center;
+    max-width: 100%;
+
+}
+.item{
+    border-right: none;
+}
+
+footer a{
+    color: white;
+    padding: 5px;
+    border-right: 1px solid white;
+}
+
+a:hover{
+    color: #aded62;
+}
+
+
+
